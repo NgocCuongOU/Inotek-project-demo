@@ -1,0 +1,61 @@
+/* ----------------- laptop --------------------------- */
+@media (max-width: 1336px) {
+  
+}
+
+/* ----------------- Mobile and Tablet --------------------------- */
+@media (max-width: 1023px) {
+}
+
+
+/* ---------------------------- Tablet ------------------------------ */
+@media (min-width: 740px) and (max-width: 1023px) {
+  .logo,
+  .login {
+    display: none !important;
+  }
+
+  header#header {
+    height: 94px !important;
+  }
+}
+
+
+/*---------------------------------- Mobile ----------------------- */
+@media (max-width: 739px) {
+  header#header {
+    height: 92px !important;
+  }
+
+  .header .navbar-list,
+  .login {
+    display: none !important;
+  }
+
+  .header .logo .logo__heading {
+    margin: 0 auto !important;
+  }
+
+  .section-title h3 {
+    font-size: 2.8rem !important;
+  }
+
+  .footer-widget .footer-logo a {
+    display: flex !important;
+    justify-content: center;
+  }
+
+  .footer-top .footer-widget {
+    text-align: center;
+  }
+}
+
+/*--------------------------------- low mobile ---------------------*/ 
+@media (max-width: 414px) {
+  
+}
+
+/*--------------------------------- xlow mobile ---------------------*/ 
+@media (max-width: 375px) { 
+  
+}
