@@ -49,7 +49,7 @@
               <a href="">Vé máy bay</a>
             </li>
             <li class="navbar-list__item">
-              <a href="">Tin tức</a>
+              <router-link :to="{ name: 'Blogs' }">Tin tức</router-link>
             </li>
             <li class="navbar-list__item">
               <a href="">Liên hệ</a>

@@ -40,7 +40,12 @@
 <script>
 import { mapActions } from 'vuex';
 export default {
-  props: ['show'],
+  props: {
+    show: {
+      required: true,
+      type: Boolean,
+    }
+  },
   data() {
     return {
       tourName: '',
@@ -70,6 +75,10 @@ export default {
 </script>
 
 <style scoped>
+.booking-content__footer {
+  margin-top: 12px;
+}
+
 .booking-modal {
   position: fixed;
   top: 0;

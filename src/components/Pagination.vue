@@ -20,7 +20,7 @@ export default {};
 
 <style scoped>
 .popular-place-pagi {
-  margin-top: 20px;
+  margin: 20px 0 40px 0;
 }
 
 .popular-place-pagi ul {

@@ -61,7 +61,7 @@ export default {
   font-size: 28px;
 
   cursor: pointer;
-  z-index: 10;
+  z-index: 1;
 }
 
 .booking-action-delete:hover {

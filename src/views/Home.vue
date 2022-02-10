@@ -1,17 +1,23 @@
 <template>
-  <Tours />
+  <div id="home">
+    <Tours />
+    <NewLetter />
+    <Blogs />
+  </div>
 </template>
 
-<script>
+<script lang="ts">
+import { defineComponent } from 'vue'
 import Tours from '../components/tours/Tours.vue'
-export default {
-  name: 'Home',
+import NewLetter from '../components/NewLetter.vue'
+import Blogs from '../components/bloghome/Blogs.vue'
+
+export default defineComponent({
   components: {
-    Tours
+    Tours,
+    NewLetter,
+    Blogs
   }
-}
+})
+
 </script>
-
-<style scoped>
-
-</style>

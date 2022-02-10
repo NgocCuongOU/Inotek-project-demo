@@ -6,19 +6,23 @@
   </div>
 </template>
 
-<script>
+<script lang="ts">
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "./GlobalStyles"
 import Header from "./components/Header.vue";
 import Footer from "./components/Footer.vue";
+import { defineComponent } from 'vue'
 
-export default {
+export default defineComponent({
+  setup() {
+    
+  },
   components: {
     Header,
-    Footer,
-  },
-};
+    Footer
+  }
+})
 </script>
 
 <style>
